@@ -1,8 +1,8 @@
 'use client';
 
 import HeroSection from './components/HeroSection';
-import Projects from './components/Projects';
-import TechnicalMetrics from './components/TechnicalMetrics';
+// import Projects from './components/Projects';
+// import TechnicalMetrics from './components/TechnicalMetrics';
 import ContactSection from './components/ContactSection';
 
 export default function BackendPortfolio() {
