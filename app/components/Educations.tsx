@@ -69,9 +69,9 @@ export default function Education() {
                             {edu.cgpa && (
                             <p className="text-sm text-gray-400">CGPA: {edu.cgpa}</p>
                             )}
-                            {edu.gpa && (
+                            {/* {edu.gpa && (
                             <p className="text-sm text-gray-400">GPA: {edu.gpa}</p>
-                            )}
+                            )} */}
                         </motion.div>
                     ))}
                 </div>
