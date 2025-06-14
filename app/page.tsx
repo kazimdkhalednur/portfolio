@@ -5,6 +5,7 @@ import WorkExperience from './components/WorkExperience';
 // import TechnicalMetrics from './components/TechnicalMetrics';
 import ContactSection from './components/ContactSection';
 import Projects from './components/Projects';
+import Volunteer from './components/Volunteers';
 
 export default function BackendPortfolio() {
 	return (
@@ -12,7 +13,7 @@ export default function BackendPortfolio() {
 			<HeroSection />
 			<WorkExperience />
 			<Projects />
-			{/* Uncomment when TechnicalMetrics is ready */}
+			<Volunteer />
 			{/* <TechnicalMetrics /> */}
 			<ContactSection />
 		</main>
