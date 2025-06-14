@@ -32,7 +32,7 @@ export default function HeroSection() {
 							<span className="px-3 py-1 bg-green-500/10 rounded-md border border-green-500/20">Django</span>
 							<span className="px-3 py-1 bg-green-500/10 rounded-md border border-green-500/20">Django REST Framework</span>
 							<span className="px-3 py-1 bg-green-500/10 rounded-md border border-green-500/20">Celery</span>
-							<span className="px-3 py-1 bg-green-500/10 rounded-md border border-green-500/20">Channels</span>
+							{/* <span className="px-3 py-1 bg-green-500/10 rounded-md border border-green-500/20">Channels</span> */}
 							<span className="px-3 py-1 bg-green-500/10 rounded-md border border-green-500/20">PostgreSQL</span>
 							<span className="px-3 py-1 bg-green-500/10 rounded-md border border-green-500/20">Docker</span>
 							{/* <span className="px-3 py-1 bg-green-500/10 rounded-md border border-green-500/20">Terraform</span>
