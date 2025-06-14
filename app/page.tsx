@@ -6,6 +6,8 @@ import WorkExperience from './components/WorkExperience';
 import ContactSection from './components/ContactSection';
 import Projects from './components/Projects';
 import Volunteer from './components/Volunteers';
+import Education from './components/Educations';
+
 
 export default function BackendPortfolio() {
 	return (
@@ -14,6 +16,7 @@ export default function BackendPortfolio() {
 			<WorkExperience />
 			<Projects />
 			<Volunteer />
+			<Education />
 			{/* <TechnicalMetrics /> */}
 			<ContactSection />
 		</main>
