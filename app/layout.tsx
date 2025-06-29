@@ -13,24 +13,24 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-	title: 'Kazi Khaled Nur - Backend Developer',
+	title: 'Kazi Khaled Nur - Software Engineer',
 	description:
-		'Welcome to my portfolio! I am a passionate backend developer specializing in building server-side applications and robust APIs. With expertise in cloud infrastructure and database optimization, I create efficient and reliable backend solutions.',
+		'Experienced backend developer building secure, scalable APIs using Python & Django. Explore my projects and skills in cloud and database optimization.',
 	keywords: [
 		'kazikhalednur',
+		'KaziKhaledNur',
 		'Kazi Khaled Nur',
 		'Kazi Khaled',
 		'Khaled Nur',
 		'Kazi',
 		'Khaled',
 		'Nur',
+		'Software Engineer',
 		'Backend Developer',
 		'Backend Engineer',
-		'Software Engineer',
 		'API Development',
 		'Database Design',
 		'Cloud Computing',
-		'Kazi Khaled Nur',
 		'Python',
 		'Django',
 		'Django REST Framework',
@@ -39,16 +39,16 @@ export const metadata: Metadata = {
 	authors: [{ name: 'Kazi Khaled Nur' }],
 	creator: 'Kazi Khaled Nur',
 	openGraph: {
-		title: 'Kazi Khaled Nur - Backend Developer Portfolio',
-		description: 'Passionate backend developer crafting server-side application. Explore my projects and technical expertise.',
+		title: 'Kazi Khaled Nur - Software Engineer Portfolio',
+		description: 'Experienced backend developer building secure, scalable APIs using Python & Django. Explore my projects and skills in cloud and database optimization.',
 		url: 'https://kazikhalednur.com',
 		siteName: 'Kazi Khaled Nur - Portfolio',
 		images: [
 			{
-				url: '/khaled.jpg',
+				url: 'https://kazikhalednur.com/khaled.jpg',
 				width: 1200,
 				height: 630,
-				alt: 'Kazi Khaled Nur - Backend Developer Portfolio',
+				alt: 'Kazi Khaled Nur - Software Engineer Portfolio',
 			},
 		],
 		locale: 'en_US',
@@ -56,10 +56,10 @@ export const metadata: Metadata = {
 	},
 	twitter: {
 		card: 'summary_large_image',
-		title: 'Kazi Khaled Nur - Backend Developer',
-		description: 'Passionate backend developer crafting server-side application. Explore my projects and technical expertise.',
+		title: 'Kazi Khaled Nur - Software Engineer',
+		description: 'Experienced backend developer building secure, scalable APIs using Python & Django. Explore my projects and skills in cloud and database optimization.',
 		creator: '@kazikhalednur',
-		images: ['/khaled.jpg'],
+		images: ['https://kazikhalednur.com/khaled.jpg'],
 	},
 	robots: {
 		index: true,
