@@ -17,6 +17,13 @@ export const metadata: Metadata = {
 	description:
 		'Welcome to my portfolio! I am a passionate backend developer specializing in building server-side applications and robust APIs. With expertise in cloud infrastructure and database optimization, I create efficient and reliable backend solutions.',
 	keywords: [
+		'kazikhalednur',
+		'Kazi Khaled Nur',
+		'Kazi Khaled',
+		'Khaled Nur',
+		'Kazi',
+		'Khaled',
+		'Nur',
 		'Backend Developer',
 		'Backend Engineer',
 		'Software Engineer',
