@@ -1,6 +1,14 @@
 import type { Metadata } from 'next';
 import { Geist, Geist_Mono } from 'next/font/google';
 import './globals.css';
+import type { Viewport } from 'next'
+
+export const viewport: Viewport = {
+	themeColor: [
+		{ media: '(prefers-color-scheme: light)', color: '#ffffff' },
+		{ media: '(prefers-color-scheme: dark)', color: '#1A1A1A' },
+	],
+}
 
 const geistSans = Geist({
 	variable: '--font-geist-sans',
@@ -39,7 +47,7 @@ export const metadata: Metadata = {
 	authors: [{ name: 'Kazi Khaled Nur' }],
 	creator: 'Kazi Khaled Nur',
 	openGraph: {
-		title: 'Kazi Khaled Nur - Software Engineer Portfolio',
+		title: 'Kazi Khaled Nur - Software Engineer',
 		description: 'Experienced backend developer building secure, scalable APIs using Python & Django. Explore my projects and skills in cloud and database optimization.',
 		url: 'https://kazikhalednur.com',
 		siteName: 'Kazi Khaled Nur - Portfolio',
@@ -72,6 +80,10 @@ export const metadata: Metadata = {
 			'max-snippet': -1,
 		},
 	},
+	alternates: {
+		canonical: 'https://kazikhalednur.com',
+	},
+
 };
 
 export default function RootLayout({
